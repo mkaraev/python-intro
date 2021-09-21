@@ -86,6 +86,7 @@ def test_is_prime():
     assert is_prime(0) is False
     assert is_prime(107) is True
     assert is_prime(19) is True
+    print("Great your solution works!")
 
 
 def merge(a, b):
@@ -124,4 +125,5 @@ def test_has_substring():
     assert has_substring("", "text") is False
     assert has_substring("text", "") is True  # любая строка содержит в себе пустую подстроку
     assert has_substring("", "") is True  # даже пустая строка содержит в себе пустую подстроку :)
+    print("Great your solution works!")
 
