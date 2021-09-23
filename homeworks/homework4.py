@@ -100,13 +100,13 @@ def merge(a, b):
 
 
 def test_merge():
-    assert extend([1, 2, 3], [4, 5, 6]) == [1, 2, 3, 4, 5, 6]
-    assert extend([1, 3, 5], [2, 4, 6]) == [1, 2, 3, 4, 5, 6]
-    assert extend([4, 5, 6], [1, 2, 3]) == [1, 2, 3, 4, 5, 6]
-    assert extend([2, 4, 6], [1, 3, 5]) == [1, 2, 3, 4, 5, 6]
-    assert extend([4, 5, 6], []) == [4, 5, 6]
-    assert extend([], [1, 3, 5]) == [1, 3, 5]
-    assert extend([], []) == []
+    assert merge([1, 2, 3], [4, 5, 6]) == [1, 2, 3, 4, 5, 6]
+    assert merge([1, 3, 5], [2, 4, 6]) == [1, 2, 3, 4, 5, 6]
+    assert merge([4, 5, 6], [1, 2, 3]) == [1, 2, 3, 4, 5, 6]
+    assert merge([2, 4, 6], [1, 3, 5]) == [1, 2, 3, 4, 5, 6]
+    assert merge([4, 5, 6], []) == [4, 5, 6]
+    assert merge([], [1, 3, 5]) == [1, 3, 5]
+    assert merge([], []) == []
     print("Great your solution works!")
 
 
