@@ -52,7 +52,6 @@ def consistent_string(strings, allowed):
     Реализуйте функцию, которая из списка строк strings отфильтрует только те, которые состоят из символов
     содержащихся в allowed и не содержат других символов. Нужное вернуть множество(set) из нужных строк.
     """
-    pass
 
 
 def test_consistent_string():
@@ -87,8 +86,3 @@ def test_filter_even():
     assert filter_even([2, 2, 4, 6, 6, 8, 10, 12]) == [2, 2, 4, 6, 6, 8, 10, 12]
     assert filter_even([1, 1, 2, 3]) == [2]
     assert filter_even([1, 3, 5]) == []
-
-
-
-
-

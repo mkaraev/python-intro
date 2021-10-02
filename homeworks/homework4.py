@@ -86,6 +86,8 @@ def test_is_prime():
     assert is_prime(0) is False
     assert is_prime(107) is True
     assert is_prime(19) is True
+    assert is_prime(19*17) is False
+
     print("Great your solution works!")
 
 
