@@ -19,28 +19,28 @@ def sum_diagonal(table):
 
 
 def test_sum_diagonal():
-    assert sum_diagonal([[
+    assert sum_diagonal([
         [1, 2, 3],
         [1, 2, 3],
         [1, 2, 3]
-    ]]) == 6
-    assert sum_diagonal([[
+    ]) == 6
+    assert sum_diagonal([
         [0, 2, 3],
         [1, 0, 3],
         [1, 2, 0]
-    ]]) == 0
-    assert sum_diagonal([[
+    ]) == 0
+    assert sum_diagonal([
         [-1, 2, 3],
         [1, 2, 3],
         [1, 2, -3]
-    ]]) == -2
-    assert sum_diagonal([[
+    ]) == -2
+    assert sum_diagonal([
         [1, 2],
         [1, 2],
-    ]]) == 3
-    assert sum_diagonal([[
+    ]) == 3
+    assert sum_diagonal([
         [1],
-    ]]) == 1
+    ]) == 1
     print("Tests passed")
 
 
